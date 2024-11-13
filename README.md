@@ -178,6 +178,67 @@ The training loop ran for 1500 iterations, with the loss and evaluation metrics 
 05/02 18:02:19 d2.utils.events]:  eta: 0:00:00  iter: 1499  total_loss: 1.403  loss_cls: 0.2948 
 ```
 
+## Prerequisites
+
+Before setting up the project, ensure you have the following installed:
+
+- Python 3.8+
+- pip (Python package installer)
+- CUDA-enabled GPU (for faster training)
+
+## Installation Steps
+
+### 1. Clone the repository
+
+
+
+```bash
+git clone https://github.com/arpsn123/31ShadesofHE.git
+cd 31ShadesofHE
+```
+### 2. Set up a Python environment
+Create a virtual environment and activate it:
+```
+python3 -m venv venv
+source venv/bin/activate  # For Linux/Mac
+venv\Scripts\activate     # For Windows
+```
+### 3. Install dependencies
+Install the required libraries:
+
+```pip install -r requirements.txt```
+### 4. Install Detectron2
+Follow the official Detectron2 installation instructions based on your CUDA version. Example for CUDA 11.1:
+```
+pip install torch==1.8.1 torchvision==0.9.1
+pip install detectron2==0.6
+```
+
+### 5. Prepare the Dataset
+Place your dataset in the correct folder and follow the structure defined by the project.
+
+Convert annotations into COCO format if they aren't already.
+
+Update the ```my_dataset_train``` dataset path in the configuration file to point to your dataset.
+
+### 6. Configure Training
+In the ```train.py``` script, make sure the paths and settings are properly configured:
+
+Data paths: Ensure the dataset paths are correct.
+Output directory: Set the output directory for model checkpoints.
+Hyperparameters: Adjust parameters like learning rate, batch size, and iterations as needed.
+
+### 7. Start Training
+Run the training script:
+
+```
+python train.py
+```
+The model will train and save results to the specified output directory.
+
+## Evaluation
+After training, you can evaluate the model using the saved checkpoints. The evaluation metrics will be outputted in a table with AP, AP50, and other related scores.
+
 
 ## Result & Analysis
 
