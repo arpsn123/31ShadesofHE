@@ -76,6 +76,34 @@ The COCO JSON files were structured to contain the following essential elements:
 - **Categories**: The class labels for the annotations, in this case, only one category for nuclei.
 - **Additional Fields**: Any extra metadata such as image IDs, segmentation polygons, and confidence scores were also included to enhance model training and validation.
 
+## Tech Stack
+
+### Frameworks and Libraries
+- ![Detectron2](https://img.shields.io/badge/Detectron2-2.0.0-blue.svg?style=for-the-badge&logo=detectron2)
+- ![PyTorch](https://img.shields.io/badge/PyTorch-1.12.1-ff7f0e.svg?style=for-the-badge&logo=pytorch)
+- ![OpenCV](https://img.shields.io/badge/OpenCV-4.6.0-5C3A3A.svg?style=for-the-badge&logo=openCV)
+- ![NumPy](https://img.shields.io/badge/NumPy-1.24.2-blue.svg?style=for-the-badge&logo=numpy)
+- ![matplotlib](https://img.shields.io/badge/matplotlib-3.6.0-blue.svg?style=for-the-badge&logo=matplotlib)
+
+### Dataset and Formats
+- ![COCO API](https://img.shields.io/badge/COCO--API-v2.0-green.svg?style=for-the-badge&logo=coco)
+- ![COCO Format](https://img.shields.io/badge/COCO--Format-v2.0-yellow.svg?style=for-the-badge&logo=coco)
+
+### Tools and Platforms
+- ![Google Colab](https://img.shields.io/badge/Google_Colab-free-lightgreen.svg?style=for-the-badge&logo=googlecolab)
+- ![Google Drive](https://img.shields.io/badge/Google_Drive-15GB_Free-lightblue.svg?style=for-the-badge&logo=googledrive)
+- ![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange.svg?style=for-the-badge&logo=jupyter)
+
+### Development and Version Control
+- ![Git](https://img.shields.io/badge/Git-2.47.0-orange.svg?style=for-the-badge&logo=git)
+- ![GitHub](https://img.shields.io/badge/GitHub-arpsn123-success.svg?style=for-the-badge&logo=github)
+
+### Others
+- ![TensorBoard](https://img.shields.io/badge/TensorBoard-2.10.0-orange.svg?style=for-the-badge&logo=tensorboard)
+- ![Shapely](https://img.shields.io/badge/Shapely-1.8.1-green.svg?style=for-the-badge&logo=shapely)
+- ![TorchServe](https://img.shields.io/badge/TorchServe-0.5.0-lightblue.svg?style=for-the-badge&logo=torchserve)
+- ![NVIDIA](https://img.shields.io/badge/NVIDIA-GTX_1080-green.svg?style=for-the-badge&logo=nvidia)
+- ![Numba](https://img.shields.io/badge/Numba-0.56.0-red.svg?style=for-the-badge&logo=numba)
 
 
 ## Model & Training
