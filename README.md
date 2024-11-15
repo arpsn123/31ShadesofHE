@@ -1,4 +1,4 @@
-# Nuclei Segmentation in H&E-Stained Histological Images 
+# Nuclei Segmentation in H&E-Stained Histological Images using Detectron2 
 
 <div align="center">
     <img src="https://img.shields.io/github/stars/arpsn123/31ShadesofHE?style=for-the-badge&logo=github&logoColor=white&color=ffca28" alt="GitHub Repo Stars">
