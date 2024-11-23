@@ -93,7 +93,7 @@ The manual annotations for each image patch were originally provided in a custom
 - **Manual Segmentation**: Every nucleus in the image was manually marked and labeled. Each annotation was assigned a unique identifier for each instance of a nucleus, with the background labeled as 0 (black) to differentiate it from the foreground (nuclei).
 - **Bounding Boxes and Masks**: Each nucleus in the image was represented by both a **bounding box** (for object detection) and a **segmentation mask** (for instance segmentation), stored in the converted COCO JSON file. This file contains all the necessary information, such as:
   - Image dimensions
-  - Annotations including category (nucleus or background), polygon points, and bounding box coordinates
+  - Annotations including category (nucleus or background), polygon points, and bounding box coordinates.
   - Object segmentation in the form of binary masks
 
 ### 3. Labeling and Class Distribution
