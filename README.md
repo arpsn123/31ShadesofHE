@@ -104,7 +104,7 @@ The COCO JSON files were structured to contain the following essential elements:
 - **Images**: Metadata about each image patch, such as filename, image size (height and width), and ID.
 - **Annotations**: A detailed list of all annotated nuclei, including their segmentation masks (as polygons) and bounding boxes.
 - **Categories**: The class labels for the annotations, in this case, only one category for nuclei.
-- **Additional Fields**: Any extra metadata such as image IDs, segmentation polygons, and confidence scores were also included to enhance model training and validation.
+- **Additional Fields**: Any extra metadata such as image IDs, segmentation polygons, and confidence scores were also included to enhance model training and validation,
 
 ## Tech Stack
 
